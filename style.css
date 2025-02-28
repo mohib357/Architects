@@ -108,3 +108,12 @@
     margin-left: 20px;
   }
 }
+
+@media screen and (min-widht: 576px) and (max-width: 992px) {
+  .teams{
+    flex-direction: column;
+  }
+  .our-features{
+    margin-left: 50px;
+  }
+}

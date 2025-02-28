@@ -5,3 +5,65 @@
     font-weight: 400;
     font-style: normal;
   }
+  /* share style start ==========================*/
+
+  .display-flex{
+    display: flex;
+  }
+  .text-gary{
+    color: #424242;
+  }
+  .text-light-gray{
+    color: #727272;
+  }
+  .bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+  }
+  .btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 1.5rem 1.8rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: .5rem;
+  }
+  
+/* share style end ==========================*/
+
+
+
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+  }
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-link{
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .brand{
+    font-weight: 700;
+    font-size: 2.8rem;
+  }
+  .banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  .banner-image{
+    width: 100%;
+  }
+
+/* header section responsive =================*/

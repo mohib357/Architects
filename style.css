@@ -10,6 +10,13 @@
   .display-flex{
     display: flex;
   }
+  main{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  main > section{
+    margin-top: 130px;
+  }
   .text-gary{
     color: #424242;
   }
@@ -65,6 +72,26 @@
   .banner-image{
     width: 100%;
   }
+  .teams{
+    align-items: center;
+  }
+  .team-image-conteiner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .our-features{
+    margin-left: 130px;
+    max-width: 530px;
+  }
+  .feature-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+  #quick-list{
+    font-weight: 500;
+  }
+
 
 /* header section responsive =================*/
 @media screen and (max-width: 576px) {
